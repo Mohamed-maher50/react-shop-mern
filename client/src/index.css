@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error{
+    transition: 1s;
+    opacity: 0;
+}
+.error.active{
+    opacity: 1;
+}
+.form-control:focus{
+    border-color: #198754;
+    outline: none;
+    box-shadow: none;
+}
+.looding{
+    position: relative;
+    border:3px solid #198754;
+    width: 150px;
+    height: 35px;
+
+}
+.ProgressLoodin{
+    display: block;
+    height: 100%;
+    width:5%;
+    transition: 1s;
+    background-color: #198754;
+    animation: progress 1s infinite alternate;
+    transform-origin: start;
+}
+@keyframes progress {
+    0%{
+      width: 0px;  
+      background-color: rgb(255, 0, 0);
+      transform-origin: start;
+    }
+    100%{
+        width: 100%;
+        background-color: #198754;
+        transform-origin: end;
+    }
+}
+
+.circleProgress{
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+   
+}

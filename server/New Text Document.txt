@@ -1,0 +1,54 @@
+{
+    "bracketPairColorizer.depreciation-notice": false,
+    "explorer.confirmDelete": false,
+    "editor.largeFileOptimizations": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.cursorBlinking": "expand",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "javascript": true
+    },
+    "git.confirmSync": false,
+    "thunder-client.htmlView": "Raw Html",
+    "thunder-client.codeSnippetLanguage": "cs-httpclient",
+    "editor.formatOnSave": true,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ]
+}
